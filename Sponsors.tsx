@@ -9,7 +9,7 @@ interface Sponsor {
 }
 
 const sponsorsData: Sponsor[] = [
-  { name: 'F1 SOLUTIONS', subtext: 'IT SALES & DISTRIBUTION', subtext2: 'Adoor, Pathanapuram, Pathanapuram, Ezhukone, Kulathupuzha', logoUrl: '/Sponsor1.svg' },
+  { name: 'F1 SOLUTIONS', subtext: 'IT SALES & DISTRIBUTION', subtext2: 'Adoor, Pathanapuram, Pathanamthitta, Ezhukone, Kulathupuzha', logoUrl: '/Sponsor1.svg' },
 ];
 
 const Sponsors: React.FC = () => {
