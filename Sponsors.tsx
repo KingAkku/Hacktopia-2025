@@ -4,11 +4,12 @@ import SplitText from './SplitText';
 interface Sponsor {
   name: string;
   subtext: string;
+  subtext2?: string;
   logoUrl: string;
 }
 
 const sponsorsData: Sponsor[] = [
-  { name: 'F1 SOLUTIONS', subtext: 'IT SUB-DISTRIBUTION', logoUrl: '/Sponsor1.svg' },
+  { name: 'F1 SOLUTIONS', subtext: 'IT SALES & DISTRIBUTION', subtext2: 'Adoor, Pathanapuram, Pathanapuram, Ezhukone, Kulathupuzha', logoUrl: '/Sponsor1.svg' },
 ];
 
 const Sponsors: React.FC = () => {
@@ -19,7 +20,7 @@ const Sponsors: React.FC = () => {
           <div className="mb-4">
               <SplitText 
                   tag="h2" 
-                  text="Our Sponsor" 
+                  text="Sponsored By" 
                   className="text-5xl font-bold text-slate-900" 
                   splitType="words" 
               />
@@ -38,6 +39,9 @@ const Sponsors: React.FC = () => {
               <img src={sponsor.logoUrl} alt={sponsor.name} className="h-32 object-contain mx-auto mb-6" />
               <h3 className="text-3xl font-bold text-slate-800">{sponsor.name}</h3>
               <p className="text-green-500 mt-1">{sponsor.subtext}</p>
+              {sponsor.subtext2 && (
+                <p className="text-slate-500 mt-1 text-sm">{sponsor.subtext2}</p>
+              )}
             </div>
           ))}
         </div>
