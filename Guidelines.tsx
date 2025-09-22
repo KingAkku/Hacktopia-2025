@@ -38,7 +38,7 @@ const Guidelines: React.FC = () => {
           <div className="p-8 bg-slate-50 rounded-2xl shadow-xl border border-slate-200 transition-all duration-300 hover:border-green-500/50 hover:shadow-2xl hover:shadow-green-500/10">
             <h3 className="text-2xl font-bold text-green-500 mb-4">3. What to Carry: Participant Essentials</h3>
             <blockquote className="border-l-4 border-green-500/50 pl-4 text-slate-500 space-y-2">
-              <p>Participants are advised to carry all necessary personal and technical essentials for a smooth experience. This includes chargers, and adapters; laptops, mouse, and USB devices; and personal items such as water bottles and hygiene supplies. All participants must also carry their college ID card, which is mandatory for entry.</p>
+              <p>Participants are advised to carry all necessary personal and technical essentials for a smooth experience. This includes chargers, and adapters, laptops, mouse, and USB devices, and personal items such as water bottles and hygiene supplies. All participants must also carry their college ID card, which is mandatory for entry.</p>
             </blockquote>
           </div>
 
