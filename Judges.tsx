@@ -3,7 +3,7 @@ import type { Coordinator } from '../types';
 import SplitText from './SplitText';
 
 const mainCoordinatorsData: Coordinator[] = [
-  { name: 'Rana Deepu', title: 'President', imageUrl: '/rana.svg' },
+  { name: 'Rana Surendran', title: 'President', imageUrl: '/rana.svg' },
   { name: 'Prameela S', title: 'Staff Coordinator', imageUrl: '/prameela.svg' },
 ];
 
