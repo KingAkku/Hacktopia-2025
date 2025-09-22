@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import type { Coordinator } from '../types';
 import SplitText from './SplitText';
 
-const coordinatorsData: Coordinator[] = [
-  { name: 'Aswin C S', title: 'Volunteer Coordinator', imageUrl: '/aswin.svg' },
-  { name: 'Devika M R', title: 'Volunteer Coordinator', imageUrl: '/devika.svg' },
-  { name: 'Akhil Kumar S', title: 'Volunteer Coordinator', imageUrl: '/akhil.svg' },
-  { name: 'Joel T', title: 'Volunteer Coordinator', imageUrl: '/joel.svg' },
+const mainCoordinatorsData: Coordinator[] = [
+  { name: 'Rana Deepu', title: 'President', imageUrl: '/rana.svg' },
+  { name: 'Prameela S', title: 'Staff Coordinator', imageUrl: '/prameela.svg' },
+];
+
+const volunteerCoordinatorsData: Coordinator[] = [
+  { name: 'Aswin C S', title: 'Student Coordinator', imageUrl: '/aswin.svg' },
+  { name: 'Devika M R', title: 'Student Coordinator', imageUrl: '/devika.svg' },
+  { name: 'Akhil Kumar S', title: 'Student Coordinator', imageUrl: '/akhil.svg' },
+  { name: 'Joel T', title: 'Student Coordinator', imageUrl: '/joel.svg' },
 ];
 
 const getInitials = (name: string): string => {
@@ -59,8 +64,17 @@ const Coordinators: React.FC = () => {
               />
           </div>
         </div>
+
+        {/* Main Coordinators */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto mb-16">
+          {mainCoordinatorsData.map(coordinator => (
+            <CoordinatorCard key={coordinator.name} coordinator={coordinator} />
+          ))}
+        </div>
+
+        {/* Volunteer Coordinators */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          {coordinatorsData.map(coordinator => (
+          {volunteerCoordinatorsData.map(coordinator => (
             <CoordinatorCard key={coordinator.name} coordinator={coordinator} />
           ))}
         </div>
