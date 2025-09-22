@@ -2,8 +2,8 @@ import React from 'react';
 import Countdown from './Countdown';
 import SplitText from './SplitText';
 import ShinyText from './ShinyText';
-import CalendarIcon from './icons/CalendarIcon';
-import LocationIcon from './icons/LocationIcon';
+import CalendarIcon from './icon/CalendarIcon';
+import LocationIcon from './icon/LocationIcon';
 
 const Hero: React.FC = () => {
   const eventDate = "2025-09-25T16:00:00";

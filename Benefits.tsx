@@ -1,9 +1,9 @@
 import React from 'react';
 import SplitText from './SplitText';
 import ShinyText from './ShinyText';
-import CertificateIcon from './icons/CertificateIcon';
-import StarIcon from './icons/StarIcon';
-import ActivityPointIcon from './icons/ActivityPointIcon';
+import CertificateIcon from './icon/CertificateIcon';
+import StarIcon from './icon/StarIcon';
+import ActivityPointIcon from './icon/ActivityPointIcon';
 
 const Benefits: React.FC = () => {
   const benefits = [

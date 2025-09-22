@@ -1,5 +1,5 @@
 import React from 'react';
-import TrophyIcon from './icons/TrophyIcon';
+import TrophyIcon from './icon/TrophyIcon';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 

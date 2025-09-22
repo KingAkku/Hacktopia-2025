@@ -1,8 +1,8 @@
 import React from 'react';
-import TwitterIcon from './icons/TwitterIcon';
-import LinkedInIcon from './icons/LinkedInIcon';
-import LocationIcon from './icons/LocationIcon';
-import PhoneIcon from './icons/PhoneIcon';
+import TwitterIcon from './icon/TwitterIcon';
+import LinkedInIcon from './icon/LinkedInIcon';
+import LocationIcon from './icon/LocationIcon';
+import PhoneIcon from './icon/PhoneIcon';
 
 const Footer: React.FC = () => {
   const quickLinks = ['About', 'Guidelines', 'Schedule', 'Prize Pool', 'FAQ'];

@@ -1,8 +1,8 @@
 import React from "react";
-import TrophyIcon from './icons/TrophyIcon';
-import MedalIcon from './icons/MedalIcon';
-import AwardIcon from './icons/AwardIcon';
-import SparklesIcon from './icons/SparklesIcon';
+import TrophyIcon from './icon/TrophyIcon';
+import MedalIcon from './icon/MedalIcon';
+import AwardIcon from './icon/AwardIcon';
+import SparklesIcon from './icon/SparklesIcon';
 
 // Data for the prize cards to keep the JSX clean and scalable
 const prizeData = [
