@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import type { Coordinator } from './types';
+import type { Coordinator } from '../types';
 import SplitText from './SplitText';
+
+const coordinatorsData: Coordinator[] = [
+  { name: 'Aswin C S', title: 'Volunteer Coordinator', imageUrl: '/aswin.svg' },
+  { name: 'Devika M R', title: 'Volunteer Coordinator', imageUrl: '/devika.svg' },
+  { name: 'Akhil Kumar S', title: 'Volunteer Coordinator', imageUrl: '/akhil.svg' },
+  { name: 'Joel T', title: 'Volunteer Coordinator', imageUrl: '/joel.svg' },
+];
 
 const getInitials = (name: string): string => {
   const names = name.split(' ');
   if (names.length === 1) return names[0].substring(0, 2).toUpperCase();
   return `${names[0][0]}${names[names.length - 1][0]}`.toUpperCase();
 };
-
-const coordinatorsData: Coordinator[] = [
-  { name: 'Aswin C S', title: 'Volunteer Coordinator', imageUrl: `https://placehold.co/128/dcfce7/16a34a?text=${getInitials('Aswin C S')}&font=inter` },
-  { name: 'Devika M R', title: 'Volunteer Coordinator', imageUrl: `https://placehold.co/128/dcfce7/16a34a?text=${getInitials('Devika M R')}&font=inter` },
-  { name: 'Akhil Kumar S', title: 'Volunteer Coordinator', imageUrl: `https://placehold.co/128/dcfce7/16a34a?text=${getInitials('Akhil Kumar S')}&font=inter` },
-  { name: 'Joel T', title: 'Volunteer Coordinator', imageUrl: `https://placehold.co/128/dcfce7/16a34a?text=${getInitials('Joel T')}&font=inter` },
-];
 
 const CoordinatorCard: React.FC<{ coordinator: Coordinator }> = ({ coordinator }) => {
   const [imgError, setImgError] = useState(false);
