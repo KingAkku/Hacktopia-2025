@@ -56,12 +56,6 @@ const Guidelines: React.FC = () => {
             </blockquote>
           </div>
         </div>
-
-        <div className="text-center mt-16">
-            <a href="#" className="inline-block bg-gradient-to-r from-green-500 to-teal-500 text-white font-bold px-10 py-4 rounded-full text-lg hover:scale-105 transform transition-transform duration-300 shadow-lg shadow-green-500/30">
-              Download Guideline Guidebook
-            </a>
-        </div>
       </div>
     </section>
   );
