@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ScheduleItem } from '../types';
+import type { ScheduleItem } from './types';
 import SplitText from './SplitText';
 
 const scheduleData: ScheduleItem[] = [

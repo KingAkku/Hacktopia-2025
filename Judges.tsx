@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { Coordinator } from '../types';
+import type { Coordinator } from './types';
 import SplitText from './SplitText';
 
 const coordinatorsData: Coordinator[] = [

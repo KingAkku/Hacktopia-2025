@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 import SmoothScroll from 'smooth-scroll';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Sponsors from './components/Sponsors';
-import Guidelines from './components/Guidelines';
-import MoreInfo from './components/MoreInfo';
-import Schedule from './components/Schedule';
-import PrizePool from './components/PrizePool';
-import Benefits from './components/Benefits';
-import Coordinators from './components/Judges';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import BubbleBackground from './components/BubbleBackground';
+import Header from './Header';
+import Hero from './Hero';
+import About from './About';
+import Sponsors from './Sponsors';
+import Guidelines from './Guidelines';
+import MoreInfo from './MoreInfo';
+import Schedule from './Schedule';
+import PrizePool from './PrizePool';
+import Benefits from './Benefits';
+import Coordinators from './Judges';
+import FAQ from './FAQ';
+import Footer from './Footer';
+import BubbleBackground from './BubbleBackground';
 
 const App: React.FC = () => {
   useEffect(() => {
