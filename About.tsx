@@ -1,9 +1,9 @@
 import React from 'react';
 import SplitText from './SplitText';
-import LightbulbIcon from './icons/LightbulbIcon';
-import UsersIcon from './icons/UsersIcon';
-import ClockIcon from './icons/ClockIcon';
-import StarIcon from './icons/StarIcon';
+import LightbulbIcon from './icon/LightbulbIcon';
+import UsersIcon from './icon/UsersIcon';
+import ClockIcon from './icon/ClockIcon';
+import StarIcon from './icon/StarIcon';
 
 const About: React.FC = () => {
   const features = [
