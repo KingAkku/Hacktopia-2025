@@ -10,6 +10,7 @@ import Schedule from './Schedule';
 import PrizePool from './PrizePool';
 import Benefits from './Benefits';
 import Coordinators from './Judges';
+import Location from './Location';
 import FAQ from './FAQ';
 import Footer from './Footer';
 import BubbleBackground from './BubbleBackground';
@@ -43,6 +44,7 @@ const App: React.FC = () => {
           <Benefits />
           <Coordinators />
           <MoreInfo />
+          <Location />
           <FAQ />
         </main>
         <Footer />

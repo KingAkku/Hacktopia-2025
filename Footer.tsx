@@ -5,7 +5,7 @@ import LocationIcon from './icon/LocationIcon';
 import PhoneIcon from './icon/PhoneIcon';
 
 const Footer: React.FC = () => {
-  const quickLinks = ['About', 'Guidelines', 'Schedule', 'Prize Pool', 'FAQ'];
+  const quickLinks = ['About', 'Guidelines', 'Schedule', 'Prize Pool', 'Location', 'FAQ'];
   const socialLinks = [
     { href: '#', icon: <TwitterIcon className="w-6 h-6" />, name: 'Twitter' },
     { href: 'https://www.linkedin.com/school/college-of-engineering-pathanapuram/posts/?feedView=all', icon: <LinkedInIcon className="w-6 h-6" />, name: 'LinkedIn' },
