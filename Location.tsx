@@ -1,10 +1,10 @@
 import React from 'react';
 import SplitText from './SplitText';
-import LocationIcon from './icon/LocationIcon';
+import LocationIcon from './icons/LocationIcon';
 
 const Location: React.FC = () => {
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.521876527011!2d76.84107797437721!3d9.091399000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06001a1e7d237b%3A0x1cb43f1559981a8c!2sCollege%20of%20Engineering%20Pathanapuram!5e0!3m2!1sen!2sin!4v1716386548762!5m2!1sen!2sin";
-  const googleMapsLink = "https://maps.app.goo.gl/vR7qqWs2wKrhRVQu5";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.521876527011!2d76.84107797502223!3d9.09139908819077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06001a1e7d237b%3A0x1cb43f1559981a8c!2sCollege%20of%20Engineering%20Pathanapuram!5e0!3m2!1sen!2sin!4v1719266183492!5m2!1sen!2sin";
+  const googleMapsLink = "https://maps.app.goo.gl/kmiGmvQA4d63zZdY8?g_st=a";
 
   return (
     <section id="location" className="py-20 bg-white">
