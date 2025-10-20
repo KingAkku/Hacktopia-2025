@@ -36,7 +36,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   if (!timeLeft) {
-    return <div className="text-3xl font-bold text-green-500">The event has started!</div>;
+    return <div className="text-3xl font-bold text-green-500 flex flex-col justify-center">The event has started!</div>;
   }
 
   const timeParts = [
